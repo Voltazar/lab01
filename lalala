@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int a;
+    double pi=3.14;
+    cout<< pi <<endl;
+    //2
+    cout<<"1"<<"13"<<"49"<<endl;
+    //3
+    cout <<"1"<<endl;
+    cin>>a>>endl;
+    cout<<"13"<<"49"<<endl;
+    return 0;
+}
