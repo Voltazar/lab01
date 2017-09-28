@@ -103,6 +103,6 @@ int main()
 	cout << "r=";
 	cin >> r;
 	double d = 2 * r;
-	cout << "d=" << d << endl;
-	return 0;
+	cout	<<	"d="	<<	d	<<	endl;
+	return	0;
 }
