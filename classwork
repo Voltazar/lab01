@@ -1,6 +1,4 @@
 //работа производилась в Visual Studio 
-// ConsoleApplication4.cpp: определяет точку входа для консольного приложения.
-//
 
 #include "stdafx.h"
 #include <iostream>
