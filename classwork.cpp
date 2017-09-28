@@ -43,11 +43,9 @@ int main()
 	cout << "7)";
 	cout << "a=";
 	cin >> a;
-	if (a == 0) {
-		cout << "error" << endl;
-	}
-	else {
-		cout << "b=";
+	if (a == 0) {cout << "error" << endl;
+	} else {
+	        cout << "b=";
 		double b;
 		cin >> b;
 		cout << "x=" << -b / a << endl;
