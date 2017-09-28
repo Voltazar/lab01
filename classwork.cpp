@@ -6,15 +6,15 @@
 
 using namespace std;
 int main()
-{   // 1
-	cout << "1)";
-	double pi = 3.14;
-	cout << pi << endl;
-	// 2
-	cout << "2)";
-	cout << " 1 " << "13 " << "49" << endl;
-	// 3
-	cout << "3)";
+{       // 1
+        cout << "1)";
+        double pi = 3.14;
+        cout << pi << endl;
+        // 2
+        cout << "2)";
+        cout << " 1 " << "13 " << "49" << endl;
+        // 3
+        cout << "3)";
 	double symbol;
 	cin >> symbol;
 	cout << " 1 " << symbol << " 13 " << symbol << " 49 " << symbol << endl;
@@ -32,7 +32,7 @@ int main()
 	// 6
 	cout << "6)";
 	double v;
-	cout << "v=";
+        cout << "v=";
 	cin >> v;
 	double m;
 	cout << "m=";
