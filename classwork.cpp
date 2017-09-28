@@ -1,27 +1,27 @@
-//работа производилась в Visual Studio 
+//работа производилась в Visual Studio
 
-#include "stdafx.h"
+
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 int main()
-{   //1
+{   // 1
 	cout << "1)";
 	double pi = 3.14;
 	cout << pi << endl;
-	//2
+	// 2
 	cout << "2)";
 	cout << " 1 " << "13 " << "49" << endl;
-	//3
+	// 3
 	cout << "3)";
 	double symbol;
 	cin >> symbol;
 	cout << " 1 " << symbol << " 13 " << symbol << " 49 " << symbol << endl;
-	//4
+	// 4
 	cout << "4)";
 	cout << "2  " << "55  " << "90" << endl;
-	//5
+	// 5
 	cout << "5)";
 	double a;
 	cin >> a;
@@ -29,7 +29,7 @@ int main()
 	double y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
 	cout << " x=" << x << endl;
 	cout << "y=" << y << endl;
-	//6
+	// 6
 	cout << "6)";
 	double v;
 	cout << "v=";
@@ -39,7 +39,7 @@ int main()
 	cin >> m;
 	double p = m*v;
 	cout << "p=" << p << endl;
-	//7
+	// 7
 	cout << "7)";
 	cout << "a=";
 	cin >> a;
@@ -52,7 +52,7 @@ int main()
 		cin >> b;
 		cout << "x=" << -b / a << endl;
 	}
-	//8
+	// 8
 	cout << "8)";
 	cout << "coordinates A=";
 	double x1, y1;
@@ -62,7 +62,7 @@ int main()
 	cin >> x2 >> y2;
 	double distance = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
 	cout << "distance=" << distance << endl;
-	//9
+	// 9
 	cout << "9)";
 	cout << "h=";
 	double h;
@@ -74,7 +74,7 @@ int main()
 	cin >> b;
 	double s = h * (a + b) / 2;
 	cout << "s=" << s << endl;
-	//10
+	// 10
 	cout << "10)";
 	cout << "R=";
 	double R;
@@ -84,7 +84,7 @@ int main()
 	cin >> r;
 	s = 3.14*(R*R - r*r);
 	cout << "s=" << s << endl;
-	//11
+	// 11
 	cout << "11)";
 	cout << "a=";
 	cin >> a;
@@ -92,13 +92,13 @@ int main()
 	v = a*a*a;
 	cout << "s=" << s << endl;
 	cout << "v=" << v << endl;
-	//12
+	// 12
 	cout << "12)";
 	cout << "a=";
 	cin >> a;
 	p = 2 * a;
 	cout << "p=" << p << endl;
-	//13
+	// 13
 	cout << "13)";
 	cout << "r=";
 	cin >> r;
