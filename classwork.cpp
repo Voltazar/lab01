@@ -69,9 +69,9 @@ int main()
     cout << "b=";
     double b;
     cin >> b;
-    if (b > a) {double c = (((b-a)/2)*((b-a)/2)+h*h)
+    if (b > a) {double c = (((b-a)/2)*((b-a)/2)+h*h);
                p = a+b+2*c;
-    } else  {double c = (((a-b)/2)*((a-b)/2)+h*h)
+    } else  {double c = (((a-b)/2)*((a-b)/2)+h*h);
                p = a+b+2*c;
     }
     cout << "p=" << p << endl;
@@ -83,7 +83,7 @@ int main()
     cout << "r=";
     double r;
     cin >> r;
-    s = 3.14*(R*R - r*r);
+    double s = 3.14*(R*R - r*r);
     cout << "s=" << s << endl;
     // 11
     cout << "11)";
