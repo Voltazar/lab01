@@ -15,7 +15,7 @@ int main()
     cout << " 1 " << "13 " << "49" << endl;
     // 3
     cout << "3)";
-    double symbol;
+    double symbol = 0;
     cin >> symbol;
     cout << " 1 " << symbol << " 13 " << symbol << " 49 " << symbol << endl;
     // 4
@@ -23,7 +23,7 @@ int main()
     cout << "2  " << "55  " << "90" << endl;
     // 5
     cout << "5)";
-    double a;
+    double a = 0;
     cin >> a;
     double x = 12 * a * a + 7 * a - 12;
     double y = 3 * x * x * x + 4 * x * x - 11 * x + 1;
@@ -31,10 +31,10 @@ int main()
     cout << "y=" << y << endl;
     // 6
     cout << "6)";
-    double v;
+    double v = 0;
     cout << "v=";
     cin >> v;
-    double m;
+    double m = 0;
     cout << "m=";
     cin >> m;
     double p = m*v;
@@ -45,29 +45,31 @@ int main()
     cin >> a;
     if (a == 0) { cout << "error" << endl;
     } else { cout << "b=";
-             double b;
+             double b = 0;
              cin >> b;
              cout << "x=" << -b / a << endl;
     }
     // 8
     cout << "8)";
     cout << "coordinates A=";
-    double x1, y1;
+    double x1 = 0;
+    double y1 = 0;
     cin >> x1 >> y1;
     cout << "coordinates B=";
-    double x2, y2;
+    double x2 = 0;
+    double y2 = 0;
     cin >> x2 >> y2;
     double distance = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
     cout << "distance=" << distance << endl;
     // 9
     cout << "9)";
     cout << "h=";
-    double h;
+    double h = 0;
     cin >> h;
     cout << "a=";
     cin >> a;
     cout << "b=";
-    double b;
+    double b = 0;
     cin >> b;
     if (b > a) {double c = (((b-a)/2)*((b-a)/2)+h*h);
                p = a+b+2*c;
@@ -78,12 +80,12 @@ int main()
     // 10
     cout << "10)";
     cout << "R=";
-    double R;
-    cin >> R;
+    double rad1 = 0;
+    cin >> rad1;
     cout << "r=";
-    double r;
-    cin >> r;
-    double s = 3.14*(R*R - r*r);
+    double rad2 = 0;
+    cin >> rad2;
+    double s = 3.14*(rad1*rad1 - rad2*rad2);
     cout << "s=" << s << endl;
     // 11
     cout << "11)";
