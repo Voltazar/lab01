@@ -69,8 +69,12 @@ int main()
     cout << "b=";
     double b;
     cin >> b;
-    double s = h * (a + b) / 2;
-    cout << "s=" << s << endl;
+    if (b>a) {double c=(((b-a)/2)*((b-a)/2)+h*h)
+               p=a+b+2*c;
+    } else  {double c=(((a-b)/2)*((a-b)/2)+h*h)
+               p=a+b+2*c;
+    }
+    cout << "p=" << p << endl;
     // 10
     cout << "10)";
     cout << "R=";
